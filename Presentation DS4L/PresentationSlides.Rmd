@@ -206,7 +206,7 @@ RQ 3.  What other aspects of voice quality affect listener judgments of ethnicit
  
  - ranging from 0.4 to 2.3 seconds (median: 0.9 seconds)
  
- - four manipulation steps for the critical stimuli
+ - four manipulation steps for the critical stimuli (see Figure 1, next slide)
      - with the original excerpt as Step 1.
      
      - Steps 2, 3, and 4 were created by making pitch accents’ F0 minima and maxima successively more extreme. 
@@ -216,8 +216,7 @@ RQ 3.  What other aspects of voice quality affect listener judgments of ethnicit
 ---
 #Methodology (3)
 
-```
-{r}
+```{r, message=FALSE, echo=FALSE, warning=FALSE}
 
 knitr::include_graphics("Images/Figure1.PNG")
 
@@ -267,9 +266,7 @@ knitr::include_graphics("Images/Figure1.PNG")
 
 Table 1 summarizes the best model for listener rates of blackness for the following predictors: phrase type, manipulation step, and their interaction.
 
-```
-{r}
-
+```{r, message=FALSE, echo=FALSE, warning=FALSE}
 knitr::include_graphics("Images/Table1.PNG")
 ```
 
@@ -378,9 +375,13 @@ Remember, R2 (the coefficient of determination) is the variance explained by the
 # References (1)
 
 - Alim, H. S., & Smitherman, G. (2012). Articulate While Black: Barack Obama, Language, and Race in the U.S. Oxford: Oxford University Press.
+
 - Burdin, R. (2015). Phonological and phonetic variation in list intonation in Jewish English. Paper presented at NWAV 44. Toronto. DOI: https://doi.org/10.21437/SpeechProsody.2014-175.
+
 - Holliday, N. (2016). Intonational Variation, Linguistic Style, and the Black/Biracial Experience. (Doctoral dissertation), New York University.
+
 - Holliday, N., & Jaggers, Z. S. (2015). Influence of suprasegmental features on perceived ethnicity of American politicians. Paper presented at 18th International Congress of Phonetic Sciences, Glasgow, Scotland.
+
 - Pierrehumbert, J. B. (1980). The phonology and phonetics of English intonation. (Doctoral dissertation), Massachusetts Institute of Technology, Cambridge, MA.
 
 ---
@@ -388,7 +389,10 @@ Remember, R2 (the coefficient of determination) is the variance explained by the
 # References (2)
 
 - Reed, P. (2016). Sounding Appalachian: /aI/ Monophthongization, Rising Pitch Accents, and Rootedness. (Doctoral dissertation), University of South Carolina.
+
 - Satterthwaite, F. E. (1946). An Approximate Distribution of Estimates of Variance Components. Biometrics Bulletin, 2(6), 110–114. DOI: https://doi.org/10.2307/3002019
+
 - Soukup, B. (2013). ‘Matched guise technique’ vs. ‘Open guise technique’ in the elicitation of language attitudes: Insights from a comparative study. Paper presented at ExAPP 2, Copenhagen.
+
 - Thomas, E. R., & Reaser, J. (2004). Delimiting perceptual cues used for the ethnic labeling of African American and European American voices. Journal of Sociolinguistics, 8(1), 54–87. DOI: https://doi.org/10.1111/j.1467-9841.2004.00251.x
 
