@@ -363,7 +363,7 @@ Remember, R2 (the coefficient of determination) is the variance explained by the
 
  - However, it could be argued that there are several limitations to the OGT, particularly, when the speaker is a former U.S. president (i.e., personal affiliations can come into play).
  
-- For what I understand so far, I thought the analysis was adequate. 
+- From what I understand so far, I thought the analysis was adequate. 
 
  - The authors do not share their code for any of the stats they did. However, all of the studies (co-)authored by Nicole Holliday are open access, so that is still a win!
 - For a sociolinguistic study, the authors actually provided very little information about the participants. 
