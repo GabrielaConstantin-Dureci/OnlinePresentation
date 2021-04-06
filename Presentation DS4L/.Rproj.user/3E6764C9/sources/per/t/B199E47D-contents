@@ -1,0 +1,246 @@
+---
+title: "Online Presentation"
+subtitle: "Data Science for Linguistics" 
+date: "Rutgers University, Spring 2021"
+author: "Gabriela Constantin-Dureci"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+background-image: url(http://www.utexas.edu/cola/_files/bb25848/PeopleTalking.jpeg)
+
+---
+class: center, middle
+
+# Intonational variation and incrementality in listener judgments of ethnicity 
+
+## (2020)
+
+###  Nicole Holliday and Dan Villarreal
+
+---
+# Outline 
+--
+
+- Abstract 
+
+--
+
+- Background for the study 
+
+--
+
+- Description of the study 
+
+ - Research Questions 
+
+--
+
+- Methodology 
+
+--
+
+- Statistical Analysis 
+
+ - Interpretation of the Analysis
+
+--
+
+- Results
+
+--
+
+- Conclusion
+
+---
+
+# Abstract 
+
+--
+
+**I am including the abstract to provide more context for this study.** 
+
+--
+
+The current study examines how listeners make gradient and variable ethnolinguistic judgments 
+in an experimental context where the speaker’s identity is well-known. It features an open-guise experiment (Soukup, 2013) that assessed whether sociolinguistic judgments are subject to 
+incrementality, with judgments increasing in magnitude as variable stimuli demonstrate more 
+extreme differences. In particular, this task tested whether judgments of President Barack Obama 
+as sounding ‘more’ or ‘less’ black (e.g., Alim & Smitherman, 2012) are sensitive to differences in 
+intonation. Half of critical stimuli featured an L+H* pitch accent, which occurs more frequently in 
+African American Language than in Mainstream U.S. English (Holliday, 2016). Four stimuli apiece 
+were created from these phrases by making each pitch accent more extreme by semitone-based F0 steps. Seventy-nine listeners rated these stimuli via the question, “How black does 
+Obama sound here?” Mixed-effects modeling indicated that listeners rated more phonetically 
+extreme L+H* stimuli as sounding blacker, regardless of listener identity. A post-hoc analysis 
+found that listeners attended to different voice quality features in L+H* stimuli. We discuss 
+implications for research in intonation, ethnic identification, incrementality, language attitudes, 
+and sociolinguistic awareness.
+
+---
+
+# Background for the study (1)
+
+--
+
+- Perceptual sociolinguistic/ sociophonetic study 
+
+--
+
+- It employs the auto-segmental/metrical (AM) intonational framework 
+(Pierrehumbert, 1980) 
+
+--
+
+- Intonational variation serves to index various ethnic identities (Burdin, 
+2015; Holliday, 2016; Reed, 2016) 
+
+--
+
+- U.S. listeners can distinguish African American and white voices (see Thomas and Reaser, 2004) 
+
+--
+
+ - rather accurately (70-100%)
+
+--
+
+- However, speaker-specific variables are difficult to pinpoint (Holliday and Jaggers, 2015)
+
+---
+
+# Background for the study (2)
+
+--
+
+- In production studies, the L + H* pitch accent - resource for performance of African American identity (Holliday, 2016). 
+
+--
+
+- L+H* has been identified as more prevalent in AAL (African American Language) than in MAE (Mainstream American English). 
+
+--
+
+- Previous studies have not considered the *incrementality* of social meaning.
+
+--
+
+  -  One reason is that socially marked variables (e.g., /ɹ/ vocalization) have been predominantly viewed as categorical (e.g., present or absent) instead of gradient.
+
+--
+
+- This study examines how listeners:
+
+ - evaluate ethnicity based on intonational variation 
+ 
+ - assign social meaning to gradient phonetic variation.
+
+---
+
+# Description of the study 
+
+--
+
+- Listeners rated speech samples of former U.S. President Barack Obama "on the degree of *sounding black*" (p. 2) 
+
+--
+
+ - Obama is known to be able to command both AAL and MAE varieties (Alim and Smitherman, 2012)
+
+- The critical stimuli included at least *one or more* *L+H* * *pitch* *accents or no* *L+H* * *pitch accents*. 
+
+--
+
+## Research Questions 
+
+--
+
+1. How do pitch accents affect listener judgments of ethnic identity? In particular, does the L+H* pitch accent carry a social meaning of blackness in perception, as it does in production?
+
+--
+
+2. To what extent are the ethnicity-based social meanings of these pitch accents mediated by incremental phonetic differences?
+
+--
+
+3. What other aspects of voice quality affect listener judgments of ethnicity?
+
+---
+
+# Methodology (1)
+
+--
+
+- Perceptual task
+
+--
+
+ - open-guise technique (OGT) (Soukup, 2013)
+
+--
+
+ - - "relative" of the MGT (matched-guise test)
+
+ - - Participants are informed that they are listening to the same speaker in different guises
+
+ - Since the stimulus speaker was former U.S. President Barack Obama, the assumption was that the listeners (all from the U.S.) would be familiarized with his voice.
+
+ - - An OGT was deemed more appropriate than an MGT.
+ 
+---
+
+# Methodology (2)
+
+--
+
+.pull-left[
+### Materials
+
+- 120 stimuli based on excerpts of Barack Obama's spontaneous speech from two different TV interviews from 2016
+
+ - each stimulus based on a single Intonational Phrase (IP) unit
+ - - ranging from 0.4 to 2.3 seconds (median: 0.9 seconds)
+]
+
+--
+
+.pull-right[
+### Task design
+
+- online survey
+- listeners heard a single stimulus auto-play twice
+- then they responded to the question "How black or white does Obama sound here?" on a continuous unit-less slider bar
+ - "very black" and "very white" on opposite poles
+ ]
+
+---
+
+# Statistical analysis (1)
+
+--
+
+- comparison of linear mixed-effects models of standardized ratings to find the predictor structure that best modeled the data in critical trials
+ - the predictors tested were:
+  - phrase types (H(star) versus L+H(star))
+  - manipulation step
+  - edge tone
+  - nuclear pitch
+  - stimulus duration
+  - numerous listener effects (e.g., participants' race, gender, etc.)
+  
+--
+
+### For this presentation, I am reporting only *phrase type* and *manipulation step*.
+
+---
+
+Table 1 summarizes the best model for listener rates of blackness for the following predictors: phrase type, manipulation step, and their interaction.
+
+```
+{r, out.width="50%"}
+
+knitr::include_graphics("/Images/Pressss.PNG")
+```
